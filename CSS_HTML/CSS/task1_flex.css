@@ -1,0 +1,159 @@
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background: #2A2929;
+}
+
+header {
+    border-bottom: 1.5px solid #EC9015;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+a {
+    color: white;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    position: relative;
+}
+
+/* -------------sidebar------------- */
+
+.sidebar {
+    position: absolute;
+    display: flex;
+    margin-left: auto;
+    right: 0px;
+    min-height: 128.4vh;
+    width: 300px;
+    z-index: 999;
+    background: #272525;
+    border-left: 1.5px solid #EC9015;
+}
+
+.sb-menu {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.sb-item {
+    margin-top: 25px;
+
+}
+
+.sb-item:hover,
+.sb-item:focus {
+    border-bottom: 1.5px solid #fba331;
+}
+
+/* -------------header------------- */
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo {}
+
+.menu-nav {
+    margin-left: 150px;
+    display: flex;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    border-bottom: 1.5px solid #fba331;
+}
+
+.navigation {
+    display: flex;
+}
+
+
+
+
+/* -------------main------------- */
+
+/* .main-title {
+    display: initial;
+} */
+
+.main-container {
+    position: relative;
+    z-index: 1;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+}
+
+.menu-cards {
+    display: inline-flex;
+}
+
+.house-view {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.hous-link {
+    display: block;
+}
+
+.hous-card {
+    width: 360px;
+    height: 300px;
+
+    border: 1.5px solid #fba331;
+}
+
+
+
+/* -------------footer------------- */
+
+.footer-contanier {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
